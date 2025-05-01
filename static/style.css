@@ -1,0 +1,41 @@
+:root {
+  --primary: #6c63ff;
+  --secondary: #a599ff;
+  --background: #f8f9ff;
+  --text: #2b2b2b;
+  --bot-bg: #ffffff;
+  --user-bg: #f1f3ff;
+}
+
+/* Previous styles remain the same */
+
+.loader {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.input-area {
+  position: relative;
+  gap: 0.8rem;
+}
+
+#loadingSpinner {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
