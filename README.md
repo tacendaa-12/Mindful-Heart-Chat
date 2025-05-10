@@ -30,7 +30,7 @@ Sarah is a comforting mental health chatbot designed to offer emotional support 
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/mindful-heart-chatbot.git
+git clone https://github.com/tacendaa-12/Mindful-Heart-Chat.git
 cd mindful-heart-chatbot
 python -m venv venv
 source venv/bin/activate
